@@ -5,3 +5,7 @@ shapely
 fiona
 requests
 jupyter
+keplergl
+folium
+plotly
+seaborn

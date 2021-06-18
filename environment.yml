@@ -11,7 +11,11 @@ dependencies:
   - fiona
   - requests
   - geopandas
-#  - pip:
+  - plotly
+  - seaborn
+  - pip:
+       - keplergl
+       - folium
 #      - openrouteservice
 #      - ortools
   
