@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation gco:nilReason="missing"/>
+            <abstract>
+                <gco:CharacterString>
+ 
+  
+  1.       Información general
+  
+ 
+ 
+  
+  1.1 Título del mapa, gráfico, tabla
+  
+  
+  Índice socio material territorial (ISMT)
+  
+ 
+ 
+  
+  1.2 Breve descripción
+  
+  
+  La construcción social del territorio y su
+  materialidad resultan de una dialéctica socio-espacial donde se reconoce que
+  el componente social estructura los territorios, al mismo tiempo que los
+  territorios dan forma a la sociedad. En el presente estudio, esta dialéctica
+  es fundamental para comprender la dimensión de materialidad territorial, la
+  cual es observada a través de variables sociales y la calidad de la vivienda
+  en la ciudad de Santiago. 
+  
+ 
+ 
+  
+  1.3 Objetivo del análisis
+  
+  
+  Este índice no abarca la pobreza y precariedad
+  socioeconómica del hábitat urbano/rural de manera directa, pero si busca
+  identificar rasgos y tendencias de la materialidad que den señales
+  territoriales de éste componente social.
+  
+ 
+ 
+  
+  2.       Metodología
+  
+ 
+ 
+  
+  2.1 Fuente de datos (fuente y año)
+  
+  
+  CENSO 2017, procesado en REDATAM7 process.
+  
+ 
+ 
+  
+  2.2 Propiedad de los datos (públicos o privados)
+  
+  
+  Público
+  
+ 
+ 
+  
+  2.3 Área de análisis (qué zonas, comunas o áreas fueron
+  analizadas)
+  
+  
+  Región metropolitana, Chile.
+  
+ 
+ 
+  
+  2.4 Supuestos relevantes (qué suposiciones consideró el modelo)
+  
+  
+  La generación del índice supone que el mayor
+  nivel de sociomaterialidad se caracteriza por un alto nivel de escolaridad
+  alcanzado por el jefe de hogar, un bajo nivel de hacinamiento y la presencia
+  y concentración de viviendas con materialidad aceptable. 
+  
+ 
+ 
+  
+  2.5 Descripción detallada
+  de la metodología(software que se usó,
+  cálculos realizados, resultados intermedios…)
+  
+  
+  La elaboración del IMT se realizó tomando en
+  cuenta 3 índices socio-materiales con especificidad territorial, rescatados
+  del censo 2017 mediante REDATAM. Éstos son los índices de escolaridad del
+  jefe de hogar, la materialidad de la vivienda, y el hacinamiento.
+   
+  Índice de
+  escolaridad del jefe de hogar:El índice de escolaridad se calculó tomando
+  en cuenta 7 niveles de escolaridad alcanzado por el jefe de hogar:
+  ·        
+  Sin instrucción: Sala cuna o jardín infantil,
+  pre-kínder, kínder. 
+  ·        
+  Primario: Educación básica, primaria o
+  preparatoria (sistema antiguo).
+  ·        
+  Secundario: Científico-humanista, técnica
+  profesional, humanidades (sistema antiguo), técnica comercial, industrial/normalista
+  (sistema antiguo).
+  ·        
+  Profesional técnico: Técnico superior (0 a 3
+  años).
+  ·        
+  Profesional pregrado: Profesional (4 o más
+  años).
+  ·        
+  Magister
+  ·        
+  Doctorado
+  Estos niveles de escolaridad fueron
+  complementados con información del censo que hace referencia a si se completó
+  o no el nivel educacional previamente declarado.
+   
+  Índice de
+  calidad de la vivienda: El índice de calidad de la vivienda se calculó
+  tomando en consideración los parámetros definidos por el Ministerio de
+  Desarrollo Social (MDS). De acuerdo con este índice, se consideraron 3
+  dimensiones a evaluar en las viviendas ocupadas: Las paredes exteriores, el
+  techo y el piso. Estas condiciones se evalúan y resultan en un índice de la
+  vivienda basado en aquellas que son ACEPTABLES, RECUPERABLES e IRRECUPERABLES.
+  
+  ·        
+  Paredes exteriores de la vivienda
+  §     ACEPTABLES: Hormigón, armado;
+  albañilería, tabique forrado por ambas caras.
+  § 
+  RECUPERABLES: Tabique sin forro interior.
+  § 
+  IRRECUPERABLES: Materiales precarios o de
+  desechos.
+  ·        
+  Techo
+  § 
+  ACEPTABLE: Tejas o tejuela, fibrocemento.
+  § 
+  RECUPERABLE: Fonolita; paja, coirón, totora o
+  caña.
+  § 
+  IRRECUPERABLE: Materiales precarios o de
+  desecho; sin cubierta en el techo.
+  ·        
+  Piso
+  § 
+  ACEPTABLE: Parquet, madera, piso flotante o
+  similar; cerámico, flexit; alfombra o cubre piso.
+  § 
+  RECUPERABLE: Baldosa de cemento, radier,
+  enchapado de cemento.
+  § 
+  IRRECUPERABLE: Piso de tierra.
+   
+  A continuación, se clasificó a las viviendas de acuerdo
+  a un índice, tomando en consideración las categorías de “Aceptable“,“Recuperable
+  “e“Irrecuperable“, determinadas de acuerdo a las siguientes condiciones:Categoríaaceptable: Materialidad en
+  muros, piso y techo aceptable; Categoríarecuperable:
+  Muro recuperable, y un índice aceptable, sea de piso o techo, además de un
+  indicador recuperable y ningún indicador irrecuperable; Categoría irrecuperable: Al menos un indicador irrecuperable. 
+   
+  Índice de
+  Hacinamiento:El índice de hacinamiento se realizó considerando la
+  metodología del Ministerio de Desarrollo Social (MDS), el cual estipula el
+  hacinamiento como la razón entre el número de personas residentes en la
+  vivienda y el número de dormitorios de la misma. Este cálculo considera
+  aquellos dormitorios de uso exclusivo o múltiple, y determina las categorías
+  sin hacinamiento, hacinamiento medio y hacinamiento crítico, considerando los
+  siguientes puntajes como referencia:
+  
+   
+    
+    Índice
+    de Hacinamiento (persona/dormitorio)
+    
+    
+    Categoría
+    de hacinamiento
+    
+   
+   
+    
+    2,4 y menos
+    
+    
+    Sin hacinamiento
+    
+   
+   
+    
+    2,5 a 4,9
+    
+    
+    Hacinamiento medio
+    
+   
+   
+    
+    6 y más
+    
+    
+    Hacinamiento critico
+    
+   
+  
+   
+  Cálculo
+  del índice de materialidad territorial (IMT)
+  El índice compuesto de materialidad territorial
+  se calcula con respecto al número de casos, ya sean de personas o viviendas
+  por zona censal, e incluye:
+  ·        
+  Puntajes ponderados por nivel de escolaridad
+  del jefe de hogar.
+  ·        
+  Puntajes ponderados por categoría de calidad
+  de la vivienda.
+  ·        
+  Puntajes ponderados por categoría de
+  hacinamiento.
+  
+   
+  Calculo de Escolaridad 
+  Los puntajes ponderados de los 7 niveles de
+  escolaridad se calcularon considerando el porcentaje de cada nivel dentro de
+  cada zona censal (con respecto al total de casos). Este porcentaje de
+  representación de la variable fue multiplicado por un puntaje de entre 1
+  (nivel de escolaridad bajo) y 1000 (nivel de escolaridad alto) para cada una
+  de las zonas 
+   
+  El puntaje ponderado de la escolaridad básica se
+  suma a los puntajes ponderados de los demás niveles educacionales para
+  generar una suma ponderada de la escolaridad del jefe de hogar en la zona
+  censal. Este puntaje va de 1 a 1000.
+   
+  Calculo de
+  calidad de la vivienda
+  Los puntajes ponderados de las categorías de
+  calidad de la vivienda fueron calculados considerando el porcentaje que cada
+  categoría representaba en cada zona censal. Los porcentajes de representación
+  de estas categorías fueron multiplicados por un puntaje dado de entre 1 y
+  1000 (1: viviendas irrecuperables y 1000: viviendas aceptables). El resultado
+  de estos puntajes ponderados fue sumado para determinar el índice de calidad
+  de la vivienda para la zona censal estudiada. Este puntaje va de 1 a 1000.
+   
+  Calculo de
+  hacinamiento
+  Así como en ambos casos anteriores, las tres
+  categorías de hacinamiento fueron calculadas por zona censal, ponderándose
+  puntajes de entre 1 para aquellas viviendas con hacinamiento crítico, y 1000
+  para aquellas sin hacinamiento. Luego de realizadas las ponderaciones, el
+  puntaje final de hacinamiento va desde 1 a 1000.
+   
+  Calculo de
+  puntajes finales
+  Para relacionar estas variables y entender la
+  significancia de cada una en sí misma, se realizó un cálculo “homals” en R, el cual busca
+  otorgar el grado de homogeneidad de la variable con respecto a las otras.
+  Para este paso metodológico se utilizó una tabla con los puntajes finales de
+  escolaridad del jefe de hogar, la calidad de la vivienda y el hacinamiento
+  por zona censal. 
+   
+  De acuerdo con el análisis realizado, estas 3
+  variables presentaron los siguientes valores de discriminación:
+   
+  ·        
+  Escolaridad: 0.5231
+  ·        
+  Calidad de la vivienda:0.4329
+  ·        
+  Hacinamiento:0.4759
+  Luego de finalizada esta prueba mediante el
+  análisis homals, los puntajes finales fueron ponderados por la discriminación
+  arrojada para generar una nueva suma ponderada de las tres variables con sus
+  nuevos pesos. 
+  Los resultados por zona luego fueron normalizados
+  entre 0 y 1 para representar el nuevo índice de materialidad territorial por
+  zona censal.
+  
+ 
+ 
+  
+  2.6 Otros comentarios y observaciones
+  
+  
+  Se espera incluir el allegamiento dentro del cálculo del ISMT. 
+  
+ 
+ </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Indicador Socio Material Territorial, calculado a partir de variables censales (2017) correspondientes a escolaridad, hacinamiento, allegamiento y materialidad de la vivienda</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Observatorio de Ciudades UC</gco:CharacterString>
+            </credit>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>
