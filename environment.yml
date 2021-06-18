@@ -1,0 +1,17 @@
+# for https://mybinder.org
+# from https://github.com/binder-examples/python-conda_pip/blob/master/environment.yml
+name: geopandas-examples
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - folium
+  - pandas
+  - shapely
+  - fiona
+  - requests
+  - geopandas
+#  - pip:
+#      - openrouteservice
+#      - ortools
+  

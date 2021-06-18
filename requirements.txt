@@ -1,0 +1,7 @@
+folium
+pandas
+geopandas
+shapely
+fiona
+requests
+jupyter
