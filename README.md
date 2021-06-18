@@ -4,7 +4,7 @@
 Or install locally with 
 
 ```bash
-git clone https://github.com/GIScience/openrouteservice-examples.git
+git clone https://github.com/matiasduran/public-dag.git
 
 # Install the requirements in a virtual env
 python -m venv .venv
